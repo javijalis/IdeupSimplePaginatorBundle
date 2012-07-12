@@ -7,7 +7,7 @@
         </li>
     {% else %}
         <li class="{{ firstDisabledClass }}">
-            {{ firstPageText }}
+             <a href="#">{{ firstPageText }}</a>
         </li>
     {% endif %}
 
@@ -19,7 +19,7 @@
         </li>
     {% else %}
         <li class="{{ previousDisabledClass }}">
-            {{ previousPageText }}
+             <a href="#">{{ previousPageText }}</a>
         </li>
     {% endif %}
 
@@ -45,7 +45,7 @@
         </li>
     {% else %}
         <li class="{{ nextDisabledClass }}">
-            {{ nextPageText }}
+             <a href="#">{{ nextPageText }}</a>
         </li>
     {% endif %}
 
@@ -57,7 +57,7 @@
         </li>
     {% else %}
         <li class="{{ lastDisabledClass }}">
-            {{ lastPageText }}
+             <a href="#">{{ lastPageText }}</a>
         </li>
     {% endif %}
 </ul>
