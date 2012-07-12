@@ -27,7 +27,7 @@
     {% for page in minPage..maxPage %}
         {% if page == currentPage %}
             <li class="{{ currentClass }}">
-                {{ page }}
+                <a href='#'>{{ page }}</a>
             </li>
         {% else %}
             {% set rParams =  {'page': page, 'paginatorId': id} | merge(routeParams) %}
